@@ -39,7 +39,9 @@ class PodCastListActivity : AppCompatActivity() {
     }
 
     private fun fillAdapter(podCastList: List<PodCast>?) {
-        rcViewPodCast.layoutManager = GridLayoutManager(this, 2)
-        rcViewPodCast.adapter = PodCastAdapter(podCastList, R.layout.item_podcast)
+        with(rcViewPodCast) {
+            layoutManager = GridLayoutManager(this@PodCastListActivity, 2)
+            adapter = PodCastAdapter(podCastList, R.layout.item_podcast)
+        }
     }
 }
