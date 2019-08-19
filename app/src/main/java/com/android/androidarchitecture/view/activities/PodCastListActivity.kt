@@ -24,21 +24,6 @@ class PodCastListActivity : AppCompatActivity(), PodCastView {
         getPodCasts()
     }
 
-    /*private fun getPodCastList() {
-        val call = ApiClient.getPodCastInterface().getPodCasts()
-        call.enqueue(object : Callback<PodCastBody> {
-            override fun onResponse(call: Call<PodCastBody>, response: Response<PodCastBody>) {
-                response.body()?.let {
-                    fillAdapter(it.body)
-                }
-            }
-
-            override fun onFailure(call: Call<PodCastBody>, t: Throwable) {
-                Log.e("ERROR: ", t.message)
-            }
-        })
-    }*/
-
     private fun fillAdapter(podCastList: List<PodCast>?) {
         with(rcViewPodCast) {
             layoutManager = GridLayoutManager(this@PodCastListActivity, 2)
