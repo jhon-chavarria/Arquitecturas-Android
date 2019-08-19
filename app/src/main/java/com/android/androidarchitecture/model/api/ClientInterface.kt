@@ -1,4 +1,4 @@
-package com.android.androidarchitecture.api
+package com.android.androidarchitecture.model.api
 
 import com.android.androidarchitecture.model.PodCastBody
 import retrofit2.http.GET

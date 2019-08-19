@@ -1,4 +1,4 @@
-package com.android.androidarchitecture.adapters
+package com.android.androidarchitecture.view.adapters
 
 import android.app.Activity
 import android.content.Intent
@@ -9,7 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.support.v4.util.Pair
 import com.android.androidarchitecture.model.PodCast
-import com.android.androidarchitecture.ui.activities.PodCastDetailActivity
+import com.android.androidarchitecture.view.activities.PodCastDetailActivity
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_podcast.view.*
 

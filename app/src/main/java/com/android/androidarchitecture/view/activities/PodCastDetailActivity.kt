@@ -1,4 +1,4 @@
-package com.android.androidarchitecture.ui.activities
+package com.android.androidarchitecture.view.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
