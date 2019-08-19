@@ -14,7 +14,7 @@ class PodCastRepositoryImpl(val podCastPresenter: PodCastPresenter): PodCastRepo
         call.enqueue(object : Callback<PodCastBody> {
             override fun onResponse(call: Call<PodCastBody>, response: Response<PodCastBody>) {
                 response.body()?.let {
-                    podCastPresenter.showPodCasts(it)
+                    podCastPresenter.showPodCasts(it.body)
                 }
             }
 

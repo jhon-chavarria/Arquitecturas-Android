@@ -3,11 +3,9 @@ package com.android.androidarchitecture.view.activities
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.GridLayoutManager
-import android.util.Log
 import com.android.androidarchitecture.R
 import com.android.androidarchitecture.view.adapters.PodCastAdapter
 import com.android.androidarchitecture.model.PodCast
-import com.android.androidarchitecture.model.PodCastBody
 import com.android.androidarchitecture.presenter.PodCastPresenter
 import com.android.androidarchitecture.presenter.PodCastPresenterImpl
 import com.android.androidarchitecture.view.PodCastView
@@ -42,21 +40,19 @@ class PodCastListActivity : AppCompatActivity(), PodCastView {
     }*/
 
     private fun fillAdapter(podCastList: List<PodCast>?) {
-        //with(rcViewPodCast) {
-          //  layoutManager = GridLayoutManager(this@PodCastListActivity, 2)
-            //PodCastAdapter(podCastList, R.layout.item_podcast)
-        //}
-        rcViewPodCast.layoutManager = GridLayoutManager(this, 2)
-        rcViewPodCast.adapter = PodCastAdapter(podCastList, R.layout.item_podcast)
+        with(rcViewPodCast) {
+            layoutManager = GridLayoutManager(this@PodCastListActivity, 2)
+            adapter = PodCastAdapter(podCastList, R.layout.item_podcast)
+        }
     }
 
     override fun getPodCasts() {
         podCastPresenter.getPodCasts()
     }
 
-    override fun showPodCasts(podCast: PodCastBody) {
-        podCast.body?.let {
-            fillAdapter(podCast.body)
+    override fun showPodCasts(podCast: List<PodCast>?) {
+        podCast?.let {
+            fillAdapter(podCast)
         }
     }
 

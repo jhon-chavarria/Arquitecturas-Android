@@ -1,6 +1,6 @@
 package com.android.androidarchitecture.presenter
 
-import com.android.androidarchitecture.model.PodCastBody
+import com.android.androidarchitecture.model.PodCast
 import com.android.androidarchitecture.model.PodCastInteract
 import com.android.androidarchitecture.model.PodCastInteractImpl
 import com.android.androidarchitecture.view.PodCastView
@@ -13,7 +13,7 @@ class PodCastPresenterImpl(var podCastView: PodCastView) : PodCastPresenter {
         podCastInteract.getPodCastsApi()
     }
 
-    override fun showPodCasts(podCast: PodCastBody) {
+    override fun showPodCasts(podCast: List<PodCast>?) {
         podCastView.showPodCasts(podCast)
     }
 
