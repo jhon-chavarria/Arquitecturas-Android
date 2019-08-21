@@ -35,6 +35,7 @@ class PodCastAdapter(private var podCastList : List<PodCast>?, private var resou
             podCast?.let {
                 with(it){
                     itemView.txtTitleItem.text = title
+                    itemView.txtDescItem.text = description
 
                     Glide.with(itemView.context).load(urls?.banner_image?.original).into(itemView.imgItemHeader)
 
@@ -48,8 +49,7 @@ class PodCastAdapter(private var podCastList : List<PodCast>?, private var resou
                         val p1: Pair<View, String> = Pair.create(itemView.imgItemHeader, "transitionHeader")
                         val p2: Pair<View, String> = Pair.create(itemView.txtTitleItem, "transitionTitle")
                         val p3: Pair<View, String> = Pair.create(itemView.txtDescItem, "transitionDesc")
-                        val p4: Pair<View, String> = Pair.create(itemView.txtPriceItem, "transitionPrice")
-                        val options: ActivityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(itemView.context as Activity, p1, p2, p3, p4)
+                        val options: ActivityOptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(itemView.context as Activity, p1, p2, p3)
                         context.startActivity(intent, options.toBundle())
                     }
                 }
