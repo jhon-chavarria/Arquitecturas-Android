@@ -1,38 +1,58 @@
 package com.android.androidarchitecture.view.adapters
 
-import android.app.Activity
-import android.content.Intent
-import android.support.v4.app.ActivityOptionsCompat
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.support.v4.util.Pair
+import androidx.databinding.DataBindingUtil
+import androidx.databinding.ViewDataBinding
+import com.android.androidarchitecture.BR
 import com.android.androidarchitecture.model.PodCast
-import com.android.androidarchitecture.view.activities.PodCastDetailActivity
-import com.bumptech.glide.Glide
-import kotlinx.android.synthetic.main.item_podcast.view.*
+import com.android.androidarchitecture.viewModel.PodCastViewModel
 
-class PodCastAdapter(private var podCastList : List<PodCast>?, private var resource: Int) : RecyclerView.Adapter<PodCastAdapter.CardCouponHolder>() {
+class PodCastAdapter(var podCastViewModel: PodCastViewModel, private var resource: Int) : RecyclerView.Adapter<PodCastAdapter.CardPodCastHolder>() {
 
-    override fun onCreateViewHolder(viewGroup: ViewGroup, position: Int): CardCouponHolder {
-        return CardCouponHolder(LayoutInflater.from(viewGroup.context).inflate(resource, viewGroup, false))
+    var podCastList: List<PodCast>? = null
+
+    fun setPodCastsList(podCastList: List<PodCast>?) {
+        this.podCastList= podCastList
+    }
+
+    override fun onCreateViewHolder(viewGroup: ViewGroup, position: Int): CardPodCastHolder {
+        val layoutInflater: LayoutInflater = LayoutInflater.from(viewGroup.context)
+        val binding: ViewDataBinding = DataBindingUtil.inflate(layoutInflater, position, viewGroup, false)
+        return CardPodCastHolder(binding)
     }
 
     override fun getItemCount(): Int {
         return podCastList?.size ?: 0
     }
 
-    override fun onBindViewHolder(holder: CardCouponHolder, position: Int) {
-        val podCast = podCastList?.get(position)
+    override fun onBindViewHolder(holder: CardPodCastHolder, position: Int) {
+        //val podCast = podCastList?.get(position)
         podCastList?.let {
-            holder.bindView(podCast)
+            holder.bindView(podCastViewModel, position)
         }
     }
 
-    class CardCouponHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    override fun getItemViewType(position: Int): Int {
+        return getLayoutIdForPosition()
+    }
+
+    private fun getLayoutIdForPosition(): Int {
+        return resource
+    }
+
+
+    class CardPodCastHolder(binding: ViewDataBinding) : RecyclerView.ViewHolder(binding.root) {
+
+        private var binding: ViewDataBinding? = null
+
+        init {
+            this.binding = binding
+        }
+
         fun bindView(podCast: PodCast?){
-            podCast?.let {
+            /*podCast?.let {
                 with(it){
                     itemView.txtTitleItem.text = title
 
@@ -54,7 +74,14 @@ class PodCastAdapter(private var podCastList : List<PodCast>?, private var resou
                     }
                 }
 
-            }
+            }*/
+
+        }
+
+        fun bindView(podCastViewModel: PodCastViewModel, position: Int) {
+            binding?.setVariable(BR.model, podCastViewModel)
+            binding?.setVariable(BR.position, position)
+            binding?.executePendingBindings()
         }
     }
 

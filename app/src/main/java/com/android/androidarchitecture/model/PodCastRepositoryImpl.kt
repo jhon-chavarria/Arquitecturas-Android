@@ -1,20 +1,26 @@
 package com.android.androidarchitecture.model
 
 import android.util.Log
+import androidx.lifecycle.MutableLiveData
 import com.android.androidarchitecture.model.api.ApiClient
-import com.android.androidarchitecture.presenter.PodCastPresenter
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class PodCastRepositoryImpl(val podCastPresenter: PodCastPresenter): PodCastRepository {
+class PodCastRepositoryImpl: PodCastRepository {
 
-    override fun getPodCastsApi() {
+    private var podCasts = MutableLiveData<List<PodCast>>()
+
+    override fun getPodCasts() : MutableLiveData<List<PodCast>> {
+        return podCasts
+    }
+
+    override fun callPodCastsApi() {
         val call = ApiClient.getPodCastInterface().getPodCasts()
         call.enqueue(object : Callback<PodCastBody> {
             override fun onResponse(call: Call<PodCastBody>, response: Response<PodCastBody>) {
                 response.body()?.let {
-                    podCastPresenter.showPodCasts(it.body)
+                    podCasts.value = it.body
                 }
             }
 

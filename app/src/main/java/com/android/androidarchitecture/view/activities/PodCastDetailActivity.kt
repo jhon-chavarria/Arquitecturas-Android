@@ -1,11 +1,9 @@
 package com.android.androidarchitecture.view.activities
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v4.text.HtmlCompat
+import androidx.core.text.HtmlCompat
 import com.android.androidarchitecture.R
-import com.bumptech.glide.Glide
-import kotlinx.android.synthetic.main.activity_pod_cast_detail.*
 import kotlinx.android.synthetic.main.view_detail.*
 
 class PodCastDetailActivity : AppCompatActivity() {
@@ -19,7 +17,7 @@ class PodCastDetailActivity : AppCompatActivity() {
             val imageHeader = it.getString("imageHeader") ?: ""
             val description = it.getString("description") ?: ""
 
-            Glide.with(this).load(imageHeader).into(imgHeaderDetail)
+            //Glide.with(this).load(imageHeader).into(imgHeaderDetail)
 
             txtTitleDetail.text = title
             txtDetailLongDesc.text = HtmlCompat.fromHtml(description, HtmlCompat.FROM_HTML_MODE_LEGACY)

@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true"
-        android:orientation="vertical"
-        tools:context=".view.activities.PodCastListActivity">
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
 
-    <android.support.design.widget.AppBarLayout
+        <variable
+                name="model"
+                type="com.android.androidarchitecture.viewModel.PodCastViewModel"/>
+
+    </data>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
-            android:layout_height="230dp"
+            android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            android:orientation="vertical"
+            tools:context=".view.activities.PodCastListActivity">
 
-        <android.support.design.widget.CollapsingToolbarLayout
+        <com.google.android.material.appbar.AppBarLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="230dp"
                 android:fitsSystemWindows="true"
-                app:contentScrim="?attr/colorPrimary"
-                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-            <ImageView
+            <com.google.android.material.appbar.CollapsingToolbarLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_podcast"/>
+                    android:fitsSystemWindows="true"
+                    app:contentScrim="?attr/colorPrimary"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-            <android.support.v7.widget.Toolbar
-                    android:layout_width="match_parent"
-                    android:layout_height="?attr/actionBarSize"
-                    app:layout_collapseMode="pin"/>
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_podcast"/>
 
-        </android.support.design.widget.CollapsingToolbarLayout>
+                <androidx.appcompat.widget.Toolbar
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        app:layout_collapseMode="pin"/>
 
-    </android.support.design.widget.AppBarLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
 
-    <android.support.v7.widget.RecyclerView
-            android:id="@+id/rcViewPodCast"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:behavior_overlapTop="30dp"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        </com.google.android.material.appbar.AppBarLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcViewPodCast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:spanCount="2"
+                app:behavior_overlapTop="30dp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                app:setAdapter="@{model.getRecyclerPodCastsAdapter}"
+
+        />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
