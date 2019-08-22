@@ -13,16 +13,16 @@ import com.squareup.picasso.Picasso
 class PodCastViewModel : ViewModel() {
     private var podCastObservable: PodCastObservable = PodCastObservable()
     private var podCastAdapter: PodCastAdapter? = null
-
-    // Repository
-    fun callPodCastApi() {
-        podCastObservable.callPodCastApi()
-    }
+    var selected : MutableLiveData<PodCast> = MutableLiveData()
 
     fun getPodCasts(): MutableLiveData<List<PodCast>> {
+        if (podCastObservable.getPodCasts().value == null) {
+            return podCastObservable.callPodCastApi()
+        }
+        setRecyclerPodCastsAdapter(podCastObservable.getPodCasts().value ?: arrayListOf())
+
         return podCastObservable.getPodCasts()
     }
-
 
     fun getPodCastHeaderImage(position: Int): String {
         val podCastList: List<PodCast>? = podCastObservable.getPodCasts().value
@@ -43,6 +43,19 @@ class PodCastViewModel : ViewModel() {
     fun getPodCastAt(position: Int): PodCast? {
         val podCastList: List<PodCast>? = podCastObservable.getPodCasts().value
         return podCastList?.get(position)
+    }
+
+    fun getPodCastSelected(): MutableLiveData<PodCast> {
+        return selected
+    }
+
+    fun onItemClick(index: Int){
+        val coupon = getPodCastAt(index)
+        selected.value = coupon
+    }
+
+    fun updateMutableList() {
+        podCastObservable.callPodCastNewApiApi()
     }
 
 }

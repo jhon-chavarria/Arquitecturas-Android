@@ -8,9 +8,14 @@ class PodCastObservable : BaseObservable() {
     private var podCastRepository: PodCastRepository = PodCastRepositoryImpl()
 
     // Repository
-    fun callPodCastApi(){
-        podCastRepository.callPodCastsApi()
+    fun callPodCastApi() : MutableLiveData<List<PodCast>>  {
+        return podCastRepository.callPodCastsApi()
     }
+
+    fun callPodCastNewApiApi() : MutableLiveData<List<PodCast>>  {
+        return podCastRepository.callPodCastsNewListApi()
+    }
+
 
     //ViewModel
     fun getPodCasts() : MutableLiveData<List<PodCast>> {

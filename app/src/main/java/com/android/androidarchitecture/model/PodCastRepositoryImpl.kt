@@ -15,7 +15,7 @@ class PodCastRepositoryImpl: PodCastRepository {
         return podCasts
     }
 
-    override fun callPodCastsApi() {
+    override fun callPodCastsApi() : MutableLiveData<List<PodCast>> {
         val call = ApiClient.getPodCastInterface().getPodCasts()
         call.enqueue(object : Callback<PodCastBody> {
             override fun onResponse(call: Call<PodCastBody>, response: Response<PodCastBody>) {
@@ -28,6 +28,24 @@ class PodCastRepositoryImpl: PodCastRepository {
                 Log.e("ERROR: ", t.message)
             }
         })
+
+        return podCasts
     }
 
+    override fun callPodCastsNewListApi() : MutableLiveData<List<PodCast>> {
+        val call = ApiClient.getPodCastInterface().getPodCastsNewList()
+        call.enqueue(object : Callback<PodCastBody> {
+            override fun onResponse(call: Call<PodCastBody>, response: Response<PodCastBody>) {
+                response.body()?.let {
+                    podCasts.value = it.body
+                }
+            }
+
+            override fun onFailure(call: Call<PodCastBody>, t: Throwable) {
+                Log.e("ERROR: ", t.message)
+            }
+        })
+
+        return podCasts
+    }
 }
