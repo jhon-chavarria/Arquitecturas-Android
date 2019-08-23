@@ -8,4 +8,7 @@ import retrofit2.Call
 interface ClientInterface {
     @GET("channels/recommended")
     fun getPodCasts(): Call<PodCastBody>
+
+    @GET("channels/recommended?category_ids[]=205")
+    fun getPodCastsNewList(): Call<PodCastBody>
 }
