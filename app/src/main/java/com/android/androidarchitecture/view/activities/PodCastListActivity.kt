@@ -2,7 +2,6 @@ package com.android.androidarchitecture.view.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import android.support.v7.widget.GridLayoutManager
 import com.android.androidarchitecture.R
 import com.android.androidarchitecture.view.adapters.PodCastAdapter
