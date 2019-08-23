@@ -28,7 +28,6 @@ class PodCastAdapter(var podCastViewModel: PodCastViewModel, private var resourc
     }
 
     override fun onBindViewHolder(holder: CardPodCastHolder, position: Int) {
-        //val podCast = podCastList?.get(position)
         podCastList?.let {
             holder.bindView(podCastViewModel, position)
         }

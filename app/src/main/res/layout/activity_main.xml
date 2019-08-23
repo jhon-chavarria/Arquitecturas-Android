@@ -43,6 +43,15 @@
 
         </com.google.android.material.appbar.AppBarLayout>
 
+        <androidx.core.widget.ContentLoadingProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:id="@+id/spinnerLoading"
+                android:indeterminate="true"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:visibility="@{model.loading}"
+                android:layout_gravity="center"/>
+
         <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rcViewPodCast"
                 android:layout_width="match_parent"

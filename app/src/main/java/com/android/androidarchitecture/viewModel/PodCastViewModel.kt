@@ -1,5 +1,6 @@
 package com.android.androidarchitecture.viewModel
 
+import android.view.View
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import androidx.lifecycle.MutableLiveData
@@ -9,18 +10,23 @@ import com.android.androidarchitecture.model.PodCast
 import com.android.androidarchitecture.model.PodCastObservable
 import com.android.androidarchitecture.view.adapters.PodCastAdapter
 import com.squareup.picasso.Picasso
+import androidx.databinding.ObservableInt
+
+
 
 class PodCastViewModel : ViewModel() {
     private var podCastObservable: PodCastObservable = PodCastObservable()
     private var podCastAdapter: PodCastAdapter? = null
     var selected : MutableLiveData<PodCast> = MutableLiveData()
+    var loading: ObservableInt? = null
+
+    init {
+        podCastObservable.callPodCastApi()
+        loading = ObservableInt(View.VISIBLE)
+        podCastAdapter = PodCastAdapter(this, R.layout.item_podcast)
+    }
 
     fun getPodCasts(): MutableLiveData<List<PodCast>> {
-        if (podCastObservable.getPodCasts().value == null) {
-            return podCastObservable.callPodCastApi()
-        }
-        setRecyclerPodCastsAdapter(podCastObservable.getPodCasts().value ?: arrayListOf())
-
         return podCastObservable.getPodCasts()
     }
 
@@ -36,7 +42,6 @@ class PodCastViewModel : ViewModel() {
     }
 
     fun getRecyclerPodCastsAdapter(): PodCastAdapter? {
-        podCastAdapter = PodCastAdapter(this, R.layout.item_podcast)
         return podCastAdapter
     }
 
