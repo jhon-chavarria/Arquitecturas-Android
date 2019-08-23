@@ -6,5 +6,4 @@ interface PodCastRepository {
     fun getPodCasts(): MutableLiveData<List<PodCast>>
     fun callPodCastsApi(): MutableLiveData<List<PodCast>>
     fun callPodCastsNewListApi(): MutableLiveData<List<PodCast>>
-
 }
