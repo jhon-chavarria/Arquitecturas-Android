@@ -1,0 +1,467 @@
+{
+  "api_warning": "You should include a version number in your API requests",
+  "body": [
+    {
+      "type": "Channel",
+      "id": 3709182,
+      "created_at": "2015-04-08T19:51:07.000Z",
+      "updated_at": "2019-08-15T22:00:45.000Z",
+      "title": "Undisclosed",
+      "description": "The Undisclosed podcast investigates wrongful convictions, and the U.S. criminal justice system, by taking a closer look at the perpetration of a crime, its investigation, the trial, and ultimate verdict... and finding new evidence that never made it to court.",
+      "formatted_description": "<p>The Undisclosed podcast investigates wrongful convictions, and the U.S. criminal justice system, by taking a closer look at the perpetration of a crime, its investigation, the trial, and ultimate verdict... and finding new evidence that never made it to court.</p>",
+      "parent_channel_id": null,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/34971080"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/34971077"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 176,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4698134,
+      "created_at": "2016-04-20T17:26:56.000Z",
+      "updated_at": "2019-08-22T09:00:05.000Z",
+      "title": "Stock Day Media",
+      "description": "Welcome to Stock Day Media. Beginning with our Stock Day podcast we give Micro-Cap companies transparency and investors the information they need to make informed decisions about their investment portfolio. Our CEO Everett Jolly has over twenty-five years in the financial sector. With that experience comes a wealth of knowledge and a desire to teach investors about the Micro-Cap market. The Micro-Cap/Penny Stock space offers many options for investors.",
+      "formatted_description": "<p>Welcome to Stock Day Media. Beginning with our Stock Day podcast we give Micro-Cap companies transparency and investors the information they need to make informed decisions about their investment portfolio. Our CEO Everett Jolly has over twenty-five years in the financial sector. With that experience comes a wealth of knowledge and a desire to teach investors about the Micro-Cap market. The Micro-Cap/Penny Stock space offers many options for investors.</p>",
+      "parent_channel_id": null,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/35084507"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/35084509"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 177,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4929696,
+      "created_at": "2017-09-25T21:55:58.000Z",
+      "updated_at": "2019-08-20T08:00:35.000Z",
+      "title": "InBox",
+      "description": "Inbox challenges guests to offer up access to their digital correspondence and allow their personal lives to be mined for comedy gold. Each week, hosts Nicole Drespel (Netflix’s Wet Hot American Summer) and Matt Stroup (Emmy Award-winning sports TV writer) look over the shoulders of comedians, performers, actors and anyone willing to explore all the buried treasure of embarrassment their inbox has just waiting to be discovered!",
+      "formatted_description": "<p>Inbox challenges guests to offer up access to their digital correspondence and allow their personal lives to be mined for comedy gold. Each week, hosts Nicole Drespel (Netflix’s Wet Hot American Summer) and Matt Stroup (Emmy Award-winning sports TV writer) look over the shoulders of comedians, performers, actors and anyone willing to explore all the buried treasure of embarrassment their inbox has just waiting to be discovered!</p>",
+      "parent_channel_id": 5000504,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/34844157"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/34844154"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 178,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4254821,
+      "created_at": "2015-08-12T16:42:09.000Z",
+      "updated_at": "2019-08-23T15:36:07.000Z",
+      "title": "Quémese después de Escuchar",
+      "description": "Un podcast sobre películas y series.",
+      "formatted_description": "<p>Un podcast sobre películas y series.</p>",
+      "parent_channel_id": null,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/33439910"
+        },
+        "banner_image": {
+          "original": null
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 180,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4702115,
+      "created_at": "2016-04-25T15:52:48.000Z",
+      "updated_at": "2019-05-14T11:36:12.000Z",
+      "title": "POSTA",
+      "description": "Radio del futuro.",
+      "formatted_description": "<p>Radio del futuro.</p>",
+      "parent_channel_id": null,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/28456821"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/26846951"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 182,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 3707865,
+      "created_at": "2015-04-08T16:32:12.000Z",
+      "updated_at": "2019-05-14T11:31:01.000Z",
+      "title": "Procedurally Generated",
+      "description": "Join Henry Bell, Tom Schreier and Max Hamilton for a weekly discussion of the state of gaming, recent releases and what they're playing. They'll be covering current headlines while sharing their takes, experiences and love of gaming.",
+      "formatted_description": "<p>Join Henry Bell, Tom Schreier and Max Hamilton for a weekly discussion of the state of gaming, recent releases and what they&#39;re playing. They&#39;ll be covering current headlines while sharing their takes, experiences and love of gaming.</p>",
+      "parent_channel_id": null,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/18958159"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/18958156"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 185,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4322549,
+      "created_at": "2015-08-31T21:34:08.000Z",
+      "updated_at": "2019-08-17T20:41:14.000Z",
+      "title": "Astonishing Legends",
+      "description": "Scott and Forrest have been called the 'Click and Clack of esoterica' by their listeners. Their mission is to take a look at legendary strange and unusual events from throughout history and interview people who've had close encounters with the unexplained. They strive to bring you everything that's entertaining about those stories and remind you that it's ok to laugh at scary stories sometimes. Put your headphones on, settle in for your commute and get ready to experience a show like nothing you've ever heard before. Show schedule is generally 3 weeks on and 1 week off.",
+      "formatted_description": "<p>Scott and Forrest have been called the &#39;Click and Clack of esoterica&#39; by their listeners. Their mission is to take a look at legendary strange and unusual events from throughout history and interview people who&#39;ve had close encounters with the unexplained. They strive to bring you everything that&#39;s entertaining about those stories and remind you that it&#39;s ok to laugh at scary stories sometimes. Put your headphones on, settle in for your commute and get ready to experience a show like nothing you&#39;ve ever heard before. Show schedule is generally 3 weeks on and 1 week off.</p>",
+      "parent_channel_id": null,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/19277822"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/16375278"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 186,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4203142,
+      "created_at": "2015-07-30T14:57:23.000Z",
+      "updated_at": "2019-07-27T00:55:52.000Z",
+      "title": "KRBE Podcast",
+      "description": "",
+      "formatted_description": "",
+      "station_call_letters": "KRBE-FM",
+      "parent_channel_id": 4203133,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/34262568"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/28106829"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 187,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4922466,
+      "created_at": "2017-08-09T16:18:43.000Z",
+      "updated_at": "2019-07-18T13:36:26.000Z",
+      "title": "Deliberations",
+      "description": "What really happens when a jury retires to deliberate?\nFind out each week on Deliberations, a modern day, improvised audio drama that allows criminal justice enthusiasts to step inside a jury room. Each season explores a different courtroom drama inspired by real life criminal trials in the news. Six improvisers serve as the jury and passionately react, negotiate, and argue opposing interpretations of the evidence.\nSeason Two examines the rights of accusers and defendants in cases of sexual misconduct. Tallahassee college student Keith Montgomery stands accused of rape, leading jurors to face the question: who is lying?\nSeason One explores the murder trial of dominatrix Samantha Hall, charged with murdering her submissive lover with a rope. Was it an erotic asphyxiation gone awry or a premeditated killing?",
+      "formatted_description": "<p>What really happens when a jury retires to deliberate?</p>\n\n<p>Find out each week on Deliberations, a modern day, improvised audio drama that allows criminal justice enthusiasts to step inside a jury room. Each season explores a different courtroom drama inspired by real life criminal trials in the news. Six improvisers serve as the jury and passionately react, negotiate, and argue opposing interpretations of the evidence.</p>\n\n<p>Season Two examines the rights of accusers and defendants in cases of sexual misconduct. Tallahassee college student Keith Montgomery stands accused of rape, leading jurors to face the question: who is lying?</p>\n\n<p>Season One explores the murder trial of dominatrix Samantha Hall, charged with murdering her submissive lover with a rope. Was it an erotic asphyxiation gone awry or a premeditated killing?</p>",
+      "parent_channel_id": 5000504,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/34844143"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/34844140"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 188,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4907576,
+      "created_at": "2017-05-30T19:56:31.000Z",
+      "updated_at": "2019-08-08T10:16:42.000Z",
+      "title": "Unconcluded",
+      "description": "Unconcluded is a real-time investigative true crime series focused on missing persons. Season 1: Jennifer Kesse (Orlando, FL) Miniseries: Tracy Ocasio (Ocoee, FL)",
+      "formatted_description": "<p>Unconcluded is a real-time investigative true crime series focused on missing persons. Season 1: Jennifer Kesse (Orlando, FL) Miniseries: Tracy Ocasio (Ocoee, FL)</p>",
+      "parent_channel_id": null,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/28576729"
+        },
+        "banner_image": {
+          "original": null
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 189,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 1689437,
+      "created_at": "2013-09-12T20:11:42.000Z",
+      "updated_at": "2019-07-29T01:05:22.000Z",
+      "title": "The Outlander Podcast­",
+      "description": "Can't get enough #Outlander? Each week, join sisters and long-time fans Ginger and Summer as they literally chat All Things Outlander: books, tv show, Scotland, and everything in between. Whether you're a brand-new, show-only fan or have been reading the books since 'Outlander' was first published, this is the podcast for you.\nJoin us to continue the conversation in our exclusive Facebook community (https://www.outlanderpod.com/group)!",
+      "formatted_description": "<p>Can&#39;t get enough #Outlander? Each week, join sisters and long-time fans Ginger and Summer as they literally chat All Things Outlander: books, tv show, Scotland, and everything in between. Whether you&#39;re a brand-new, show-only fan or have been reading the books since &#39;Outlander&#39; was first published, this is the podcast for you.</p>\n\n<p>Join us to continue the conversation in our exclusive <a href=\"https://www.outlanderpod.com/group\" target=\"_blank\" rel=\"nofollow noopener\">Facebook community</a>!</p>",
+      "parent_channel_id": null,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/34245675"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/17652183"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 190,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4581642,
+      "created_at": "2015-10-30T14:34:15.000Z",
+      "updated_at": "2019-03-25T03:11:35.000Z",
+      "title": "Meditation Minis Podcast",
+      "description": "Meditation for Busy People | Guided Meditations for Anxiety and Stress\nJoin host Hypnotherapist Chel Hamilton for short, guided meditations to calm your anxiety, overcome negative thinking, increase your confidence, and more - in 15 minutes or less!\nPlease Note: The meditations presented in this series are from a wide variety of sources and do not subscribe to any particular religious ideology. Every effort is made to present the meditation techniques in this podcast series in a non-dogmatic, non-religious based way.\nPlease do not listen to this meditation podcast or any other meditations while doing something that requires your complete attention… like driving your car. Stay safe - thanks!\nFor more information visit: http://chelhamilton.com",
+      "formatted_description": "<p>Meditation for Busy People | Guided Meditations for Anxiety and Stress</p>\n\n<p><strong>Join host Hypnotherapist Chel Hamilton for short, guided meditations to calm your anxiety, overcome negative thinking, increase your confidence, and more - in 15 minutes or less!</strong></p>\n\n<p>Please Note: The meditations presented in this series are from a wide variety of sources and do not subscribe to any particular religious ideology. Every effort is made to present the meditation techniques in this podcast series in a non-dogmatic, non-religious based way.</p>\n\n<p>Please do not listen to this meditation podcast or any other meditations while doing something that requires your complete attention… like driving your car. Stay safe - thanks!</p>\n\n<p><strong>For more information visit: <a href=\"http://chelhamilton.com\" target=\"_blank\" rel=\"nofollow noopener\">http://chelhamilton.com</a></strong></p>",
+      "parent_channel_id": 4860815,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/29672358"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/18879468"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 191,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4913283,
+      "created_at": "2017-06-26T18:58:13.000Z",
+      "updated_at": "2019-05-14T11:32:49.000Z",
+      "title": "Drink Champs",
+      "description": "Legendary Queens rapper and one half of Capone-n-Noreaga N.O.R.E. alongside Miami hip-hop pioneer DJ EFN come together as the Drink Champs. Listen in as N.O.R.E., DJ EFN and special guests talk over some drinks and discuss everything from current events to old school stories. Nothing is sacred when talking with the Drink Champs so this show is not for the easily offended!",
+      "formatted_description": "<p>Legendary Queens rapper and one half of Capone-n-Noreaga N.O.R.E. alongside Miami hip-hop pioneer DJ EFN come together as the Drink Champs. Listen in as N.O.R.E., DJ EFN and special guests talk over some drinks and discuss everything from current events to old school stories. Nothing is sacred when talking with the Drink Champs so this show is not for the easily offended!</p>",
+      "parent_channel_id": null,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/28949129"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/28932759"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 192,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4579242,
+      "created_at": "2015-10-27T15:05:52.000Z",
+      "updated_at": "2019-05-14T11:38:33.000Z",
+      "title": "Zach Sang Show",
+      "description": "Zach Sang is a multimedia superstar with a new generation of followers. He is a radio prodigy, former Nickelodeon personality, social media addict, pop culture junkie… and everyone’s best friend.",
+      "formatted_description": "<p>Zach Sang is a multimedia superstar with a new generation of followers. He is a radio prodigy, former Nickelodeon personality, social media addict, pop culture junkie… and everyone’s best friend.</p>",
+      "station_call_letters": "ZACH-IO",
+      "parent_channel_id": 4568649,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/27088798"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/27088791"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 198,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4903323,
+      "created_at": "2017-02-18T20:00:11.000Z",
+      "updated_at": "2019-08-22T13:13:25.000Z",
+      "title": "The 45th",
+      "description": "The 24-hour news cycle can barely keep up with the Trump Administration. For a deeper dive and a closer look at the latest developments out of the White House tune in to \"The 45th\". Hosted by Rabia Chaudry and Susan Simpson, \"The 45th\" is a weekly dissection of policy and spectacle with guests and perspectives from across the political spectrum.",
+      "formatted_description": "<p>The 24-hour news cycle can barely keep up with the Trump Administration. For a deeper dive and a closer look at the latest developments out of the White House tune in to &quot;The 45th&quot;. Hosted by Rabia Chaudry and Susan Simpson, &quot;The 45th&quot; is a weekly dissection of policy and spectacle with guests and perspectives from across the political spectrum.</p>",
+      "parent_channel_id": 5000504,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/34844093"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/34844090"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 200,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4950176,
+      "created_at": "2018-03-20T17:15:21.000Z",
+      "updated_at": "2018-10-02T15:25:48.000Z",
+      "title": "Marcia Clark Investigates The First 48",
+      "description": "Famed prosecutor and defense attorney Marcia Clark delves into some of the most controversial homicides in America. These are cases that have shocked and captivated the public, but have outcomes that are either unresolved, or leave more questions than answers. Now, Marcia will speak with experts, review the facts, and use her own expertise to shed new light on cases which have been left in the darkness. See more Marcia Clark Investigates The First 48 on A&amp;E, at aetv.com, and on Crime + Investigation in the UK.",
+      "formatted_description": "<p>Famed prosecutor and defense attorney Marcia Clark delves into some of the most controversial homicides in America. These are cases that have shocked and captivated the public, but have outcomes that are either unresolved, or leave more questions than answers. Now, Marcia will speak with experts, review the facts, and use her own expertise to shed new light on cases which have been left in the darkness. See more Marcia Clark Investigates The First 48 on A&amp;E, at aetv.com, and on Crime + Investigation in the UK.</p>",
+      "parent_channel_id": 4961552,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/32104276"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/32104273"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 201,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4950586,
+      "created_at": "2018-03-22T14:49:55.000Z",
+      "updated_at": "2019-08-23T16:40:57.000Z",
+      "title": "The Morning After Sports Betting",
+      "description": "This daily morning show is based around the \"train wreck\" real life of host, Gabe Morency. Coined, â€œthe Stephen A. Smith of sports betting talk,â€ by Forbes Magazine, the long-time radio and TV personality, purged from Toronto, has done everything from host the Montreal Expos post game show, to front the heavy metal band, Homicide.\nGabeâ€™s daily revelations of previous nightâ€™s escapades in the world of Sports Wagering often end up in comical, surreal resolutions, having listeners obsessively tune in to see what predicaments Gabe had gotten himself into, and how he fared in the end. Veteran co-host/handicapper Joe Raneri keeps the show honest and classes up the joint w/ facts, data, logic and reason.As seen live on SportsGrid Network popular OTT video platforms, weekdays from 9am â€“ 12pm EST.\nHeard live on the FNTSY Sports Radio Network, weekdays from 9am â€“ 12pm EST.\n\n",
+      "formatted_description": "<p>This daily morning show is based around the &quot;train wreck&quot; real life of host, Gabe Morency. Coined, â€œthe Stephen A. Smith of sports betting talk,â€ by Forbes Magazine, the long-time radio and TV personality, purged from Toronto, has done everything from host the Montreal Expos post game show, to front the heavy metal band, Homicide.</p>\n\n<p>Gabeâ€™s daily revelations of previous nightâ€™s escapades in the world of Sports Wagering often end up in comical, surreal resolutions, having listeners obsessively tune in to see what predicaments Gabe had gotten himself into, and how he fared in the end. Veteran co-host/handicapper Joe Raneri keeps the show honest and classes up the joint w/ facts, data, logic and reason.As seen live on SportsGrid Network popular OTT video platforms, weekdays from 9am â€“ 12pm EST.</p>\n\n<ul>\n<li>Heard live on the FNTSY Sports Radio Network, weekdays from 9am â€“ 12pm EST.</li>\n</ul>",
+      "parent_channel_id": 4790086,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/34343324"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/34343302"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 202,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4733994,
+      "created_at": "2016-05-25T16:00:24.000Z",
+      "updated_at": "2019-05-14T11:37:06.000Z",
+      "title": "College Basketball Talk on NBC Sports Podcast",
+      "description": "Rob Dauster takes a look at everything happening across college basketball, including a weekly recap of action across the country and each conference, recruiting and a looking ahead to the future of the sport.",
+      "formatted_description": "<p>Rob Dauster takes a look at everything happening across college basketball, including a weekly recap of action across the country and each conference, recruiting and a looking ahead to the future of the sport.</p>",
+      "parent_channel_id": 4637561,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/25988027"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/23210734"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 203,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4053688,
+      "created_at": "2015-06-12T16:06:55.000Z",
+      "updated_at": "2019-06-03T15:31:55.000Z",
+      "title": "Peristyle Podcast - USC Trojan Football Discussion",
+      "description": "Welcome and thanks for checking out the Peristyle Podcast, our internet radio show covering the USC Trojan football team. Every week host Ryan Abraham brings you multiple Trojan talk podcasts, with a variety of guests and opinions talking about football, basketball, recruiting and more!",
+      "formatted_description": "<p>Welcome and thanks for checking out the Peristyle Podcast, our internet radio show covering the USC Trojan football team. Every week host <strong>Ryan Abraham</strong> brings you multiple Trojan talk podcasts, with a variety of guests and opinions talking about football, basketball, recruiting and more!</p>",
+      "parent_channel_id": 4053682,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/28014019"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/15137611"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 204,
+        "default_follow": false
+      }
+    },
+    {
+      "type": "Channel",
+      "id": 4733987,
+      "created_at": "2016-05-25T15:52:01.000Z",
+      "updated_at": "2019-05-14T11:37:01.000Z",
+      "title": "Rotoworld Football Podcast",
+      "description": "From fantasy implications to NFL draft analysis to major events, the Rotoworld Football staff has the NFL landscape covered. Listen as Josh Norris, Evan Silva, Roto Pat, Rich Hribar and Ray Summerlin give their analysis and opinions on everything happening in the NFL.",
+      "formatted_description": "<p>From fantasy implications to NFL draft analysis to major events, the Rotoworld Football staff has the NFL landscape covered. Listen as Josh Norris, Evan Silva, Roto Pat, Rich Hribar and Ray Summerlin give their analysis and opinions on everything happening in the NFL.</p>",
+      "parent_channel_id": 4650542,
+      "urls": {
+        "logo_image": {
+          "original": "https://images.theabcdn.com/i/25987988"
+        },
+        "banner_image": {
+          "original": "https://images.theabcdn.com/i/22196407"
+        }
+      },
+      "recommendation": {
+        "position": 1,
+        "category_id": 205,
+        "default_follow": false
+      }
+    }
+  ]
+}

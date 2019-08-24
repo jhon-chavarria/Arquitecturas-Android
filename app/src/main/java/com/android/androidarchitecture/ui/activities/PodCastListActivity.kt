@@ -44,4 +44,16 @@ class PodCastListActivity : AppCompatActivity() {
             adapter = PodCastAdapter(podCastList, R.layout.item_podcast)
         }
     }
+
+    /*private fun getDataFromLocal() {
+        val jsonString =  readStream(resources.openRawResource(R.raw.data))
+        val testModel = Gson().fromJson(jsonString, PodCastBody::class.java)
+        fillAdapter(testModel.body)
+    }
+
+
+    private fun readStream(`is`: InputStream): String {
+        val s = Scanner(`is`).useDelimiter("\\A")
+        return if (s.hasNext()) s.next() else ""
+    }*/
 }
